@@ -1,0 +1,73 @@
+.w328{
+    width: 328px;
+}
+.card-active-4{
+    height: 255px;
+    background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/2023week6/event/07.jpg?raw=true);
+    background-size:cover;
+    background-position: center;
+}
+.card-active-5{
+    height: 255px;
+    background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/2023week6/event/08.jpg?raw=true);
+    background-size:cover;
+    background-position: center;
+}
+.card-active-6{
+    height: 255px;
+    background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/2023week6/event/09.jpg?raw=true);
+    background-size:cover;
+    background-position: center;
+}
+
+.card-active-7{
+    height: 255px;
+    background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/2023week6/event/10.jpg?raw=true);
+    background-size:cover;
+    background-position: center;
+}
+.card-active-8{
+    height: 255px;
+    background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/2023week6/event/11.jpg?raw=true);
+    background-size:cover;
+    background-position: center;
+}
+.card-active-9{
+    height: 255px;
+    background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/2023week6/event/12.jpg?raw=true);
+    background-size:cover;
+    background-position: center;
+}
+.page-item :hover{
+    background-color: $black;
+    color: $yellow;
+}
+.jcsb{
+    justify-content: space-between;
+}
+@media (max-width:1240px) {
+    .w30{
+        width: 45%;
+    }
+}
+@media (max-width:840px) {
+    .w30{
+        width: 80%;
+        height: 700px;
+    }
+    .jcsb{
+        justify-content: center;
+    }
+}
+@media (max-width:480px) {
+    .fz64{
+        font-size: 40px;
+    }
+    .fz32{
+        font-size: 16px;
+    }
+    .w328{
+        width: 240px;
+    }
+}
+
